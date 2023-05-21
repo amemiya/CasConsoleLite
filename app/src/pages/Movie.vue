@@ -34,7 +34,7 @@
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto my-2">
                     <button type="button" class="btn btn-success" @click="fetchMovieList" :disabled="movieListStore.currentCount !== 0 && movieListStore.total <= movieListStore.currentCount">
-                        サポートリスト取得
+                        録画リスト取得
                     </button>
                 </div>
             </div>
